@@ -22,7 +22,7 @@ module ApplicationHelper
 		if person.new_record?
 			@class = "new-person"
 		else
-			@class = "person-#{person.id}"
+			@class = "edit-person"
 		end
 		@class
 	end
